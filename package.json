@@ -1,0 +1,27 @@
+{
+  "name": "bookmein-learning",
+  "version": "1.0.0",
+  "description": "bookmein-learning",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/src/index.js",
+    "dev": "nodemon server/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanguyenphu/bookmein-learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanguyenphu/bookmein-learning/issues"
+  },
+  "homepage": "https://github.com/hanguyenphu/bookmein-learning#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.4.1",
+    "mongoose": "^5.8.3",
+    "nodemon": "^2.0.2"
+  }
+}

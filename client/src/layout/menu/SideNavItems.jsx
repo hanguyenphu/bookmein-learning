@@ -3,7 +3,7 @@ import { SideNavItem } from "react-materialize";
 
 
 class SideNavItems extends Component {
-    
+
      state = {
         authenticated: true
     }
@@ -18,7 +18,7 @@ class SideNavItems extends Component {
 
     render() {
         const  { authenticated }  = this.state;
-      
+
         return (
             <div>
                 {authenticated ? (
@@ -29,7 +29,7 @@ class SideNavItems extends Component {
                                     "assets/images/curtis-macnewton-vVIwtmqsIuk-unsplash.jpg",
                                 email: "salon@gmail.com",
                                 name: "Book Me In Inc",
-                                
+
                             }}
                             userView
                         />
@@ -39,10 +39,10 @@ class SideNavItems extends Component {
                         >
                             Calendar
                         </SideNavItem>
-                        <SideNavItem href='/hostory' icon='history'>
+                        <SideNavItem href='/history' icon='history'>
                             History
                         </SideNavItem>
-                        <SideNavItem href='/hostory' icon='show_chart'>
+                        <SideNavItem href='/history' icon='show_chart'>
                             Sales
                         </SideNavItem>
 

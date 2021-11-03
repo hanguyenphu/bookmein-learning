@@ -30,6 +30,6 @@
     "nodemon": "^2.0.2",
     "react-materialize": "^3.5.8",
     "react-router-dom": "^5.1.2",
-    "validator": "^12.1.0"
+    "validator": "^13.7.0"
   }
 }
